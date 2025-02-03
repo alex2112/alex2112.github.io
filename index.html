@@ -3,26 +3,45 @@
 <meta name=viewport content="width=device-width, initial-scale=1">
 <head>
 <title>Roller</title>
+<style>
+	table {
+		text-align: center;
+	}
+	#table_title {
+		background-color: #85c1e9;
+	}
+	#table_header {
+		background-color: lightgrey;
+	}
+	#table_row {
+		background-color: #f4f6f6;
+	}
+</style>
 </head>
 <body>
+
 <table width=100% style="border-collapse: collapse" border="1">
-<tr>
-<th></th>
-<th>ΛΕΥΚΟ</th>
-<th>ΓΚΡΙ</th>
-<th>ΜΠΕΖ</th>
-<th>ΣΑΜΠΑΝΙΖΕ</th>
-<th>ΚΙΤΡΙΝΟ</th>
-<th>ΠΡΑΣΙΝΟ</th>
-<th>ΜΠΛΕ</th>
-<th>ΚΑΦΕ</th>
-<th>ΑΝΘΡΑΚΙ</th>
-<th>ΜΑΥΡΟ</th>
-</tr>
+	<tr id=table_header>
+		<th id=table_title>ROLLER</th>
+		<th>ΛΕΥΚΟ</th>
+		<th>ΓΚΡΙ</th>
+		<th>ΜΠΕΖ</th>
+		<th>ΣΑΜΠΑΝΙΖΕ</th>
+		<th>ΚΙΤΡΙΝΟ</th>
+		<th>ΠΡΑΣΙΝΟ</th>
+		<th>ΜΠΛΕ</th>
+		<th>ΚΑΦΕ</th>
+		<th>ΑΝΘΡΑΚΙ</th>
+		<th>ΜΑΥΡΟ</th>
+		<th>ΑΒΑΦΟ</th>
+		<th>ΝΙΚΕΛ</th>
+	</tr>
 
-
-<tr>
-<th>32 ΜΗΧΑΝΙΣΜΟΙ</th>
+	<tr>
+		<th id=table_header>32</th>
+	</tr>
+	<tr id=table_row>
+		<th>ΜΗΧΑΝΙΣΜΟΙ</th>
 
 <td>600</td>
 <td>800</td>
@@ -32,28 +51,35 @@
 <td>100</td>
 <td>500</td>
 <td>900</td>
-<td>200</td>
-<td>100</td>
+<td>500</td>
+<td>300</td>
+<td>-</td>
+<td>-</td>
 </tr>
 
-<tr>
-<th>32 ΕΛΑΤΗΡΙΑ</th>
+<tr id=table_row>
+<th>ΕΛΑΤΗΡΙΑ</th>
 
+<td style="background-color: wheat">600</td>
+<td style="background-color: wheat">500</td>
+<td>1200</td>
+<td>300</td>
+<td>300</td>
+<td>200</td>
+<td>300</td>
+<td>500</td>
+<td>300</td>
 <td>600</td>
-<td>500</td>
-<td>0</td>
-<td>0</td>
-<td>300</td>
-<td>200</td>
-<td>300</td>
-<td>500</td>
-<td>0</td>
-<td>0</td>
+<td>-</td>
+<td>-</td>
 </tr>
-<tr>
-<th>38 ΜΗΧΑΝΙΣΜΟΙ</th>
 
-<td>100</td>
+<tr><th id=table_header>38</th></tr>
+
+<tr id=table_row>
+<th>ΜΗΧΑΝΙΣΜΟΙ</th>
+
+<td style="background-color: wheat">100</td>
 <td>600</td>
 <td>1100</td>
 <td>300</td>
@@ -62,26 +88,33 @@
 <td>400</td>
 <td>1300</td>
 <td>700</td>
-<td>100</td>
+<td style="background-color: wheat">100</td>
+<td>-</td>
+<td>-</td>
 </tr>
-<tr>
-<th>38 ΕΛΑΤΗΡΙΑ</th>
+<tr id=table_row>
+<th>ΕΛΑΤΗΡΙΑ</th>
 
-<td>250</td>
-<td>200</td>
-<td>0</td>
+<td style="background-color: wheat">250</td>
+<td style="background-color: wheat">200</td>
+<td style="background-color: wheat">200</td>
 <td>238</td>
 <td>300</td>
 <td>600</td>
 <td>1200</td>
 <td>400</td>
 <td>600</td>
-<td>0</td>
+<td>600</td>
+<td>-</td>
+<td>-</td>
 </tr>
-<tr>
-<th>ΤΑΠΕΣ</th>
 
-<td>2600</td>
+<tr><th id=table_header>ΤΑΠΕΣ</th></tr>
+
+<tr id=table_row>
+<th>ΣΤΗΡΙΓΜΑΤΑ</th>
+
+<td>2400</td>
 <td>3600</td>
 <td>3400</td>
 <td>1600</td>
@@ -91,92 +124,112 @@
 <td>2200</td>
 <td>800</td>
 <td>2400</td>
+<td>-</td>
+<td>-</td>
 </tr>
-<tr>
-<th>ΣΤΗΡΙΓΜΑΤΑ +</th>
-
-<td>92</td>
-<td>46</td>
-<td>92</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>ΣΤΗΡΙΓΜΑΤΑ O</th>
-
-<td>0</td>
-<td>92</td>
-<td>0</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<th>ΤΑΠΕΣ ΕΠΕΚΤΑΣΗΣ</th>
+<tr id=table_row>
+<th>ΕΠΕΚΤΑΣΗ</th>
 
 <td>600</td>
 <td>500</td>
 <td>400</td>
 <td>500</td>
-<td></td>
-<td></td>
-<td></td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>750</td>
 <td>750</td>
 <td>750</td>
+<td>-</td>
+<td>-</td>
 </tr>
-</table>
-<br><br>
+<tr id=table_row>
+<th>ΒΑΡΥΔΙ</th>
 
-<table width=60% style="border-collapse: collapse" border="1">
-<tr>
-<th></th>
-<th>ΑΒΑΦΟ</th>
-<th>ΝΙΚΕΛ</th>
+<td>12300</td>
+<td>9000</td>
+<td>12340</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>2000</td>
+<td>-</td>
+<td>-</td>
 </tr>
-<tr>
-<th>ΣΤΗΡΙΓΜΑΤΑ +</th>
 
-<td>0</td>
+<tr><th id=table_header>ΣΤΗΡΙΓΜΑΤΑ</th></tr>
+
+<tr id=table_row>
+<th>+</th>
+
+<td style="background-color: wheat">46</td>
+<td>46</td>
+<td>46</td>
 <td></td>
-</tr>
-<tr>
-<th>ΣΤΗΡΙΓΜΑΤΑ O</th>
-
-<td>0</td>
 <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1000</td>
+<td>-</td>
 </tr>
-</table>
-<br><br>
+<tr id=table_row>
+<th>O</th>
 
-<table width=60% style="border-collapse: collapse" border="1">
-<tr>
-<th></th>
-<th>ΑΒΑΦΟ</th>
-<th>ΝΙΚΕΛ</th>
+<td style="background-color: lightcoral">0</td>
+<td>46</td>
+<td>46</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1000</td>
+<td>-</td>
 </tr>
-<tr>
-<th>ΜΕΤΩΠΗ ΔΙΑΚΟΣΜΗΤΙΚΗ ΤΕΤΡΑΓΩΝΗ</th>
 
+<tr><th id=table_header>ΜΕΤΩΠΗ</th>
+</tr>
+<tr id=table_row>
+<th>ΤΕΤΡΑΓΩΝΗ</th>
+
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>190</td>
 <td>188</td>
 </tr>
-<tr>
-<th>ΜΕΤΩΠΗ ΔΙΑΚΟΣΜΗΤΙΚΗ ΣΤΡΟΓΓΥΛΗ</th>
+<tr id=table_row>
+<th>ΣΤΡΟΓΓΥΛΗ</th>
 
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
 <td>238</td>
 <td>170</td>
 </tr>
 </table>
-<p align="right">Sun Feb  2 23:00:01 2025</p>
+<p align="right">Mon Feb  3 09:00:02 2025</p>
 </body>
 
